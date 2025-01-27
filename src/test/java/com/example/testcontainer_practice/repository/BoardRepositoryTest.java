@@ -1,16 +1,18 @@
 package com.example.testcontainer_practice.repository;
 
-import com.example.testcontainer_practice.ContainerTest;
+import com.example.testcontainer_practice.TestcontainerConfig;
 import com.example.testcontainer_practice.entity.Board;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+import org.springframework.boot.test.context.SpringBootTest;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 
-@DataJpaTest
-public class BoardRepositoryTest  extends ContainerTest {
+@SpringBootTest
+@TestcontainerConfig
+public class BoardRepositoryTest  {
 
     @Autowired
     private BoardRepository boardRepository;
