@@ -15,7 +15,6 @@ import org.testcontainers.utility.DockerImageName;
 import javax.sql.DataSource;
 
 
-@TestConfiguration(proxyBeanMethods = false)
 public class TestApplication {
 
     @Bean
