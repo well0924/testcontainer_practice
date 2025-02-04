@@ -1,6 +1,5 @@
 package com.example.testcontainer_practice.domain;
 
-import com.example.testcontainer_practice.domain.dto.BoardDto;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

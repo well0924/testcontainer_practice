@@ -1,7 +1,6 @@
 package com.example.testcontainer_practice.entity;
 
 import com.example.testcontainer_practice.domain.dto.BoardDto;
-import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
